@@ -9,7 +9,8 @@
 		android:text="@string/hello_world"
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
-		android:divider="#000000"/>
+		android:divider="#000000"
+		android:id="@+id/mainListView1"/>
 
 	<LinearLayout
 		android:layout_height="wrap_content"
@@ -19,12 +20,14 @@
 		<EditText
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
-			android:ems="10"/>
+			android:ems="10"
+			android:id="@+id/mainEditText1"/>
 
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
-			android:text="Button"/>
+			android:text="Button"
+			android:id="@+id/mainButtonsend"/>
 
 	</LinearLayout>
 
