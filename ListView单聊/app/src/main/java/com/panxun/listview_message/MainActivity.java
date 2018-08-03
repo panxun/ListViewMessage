@@ -61,6 +61,7 @@ public class MainActivity extends Activity
 												// TODO: Implement this method
 												//inputText.setHint("");
 												actionBar.setSubtitle("");
+												actionBar.setSubtitle("手机在线-5G");
 												msgList.add(new Msg("快给我连接服务器",Msg.TYPE_RECEIVED));
 												msgAdapter.notifyDataSetChanged();
 												msgListView.setSelection(msgList.size());
