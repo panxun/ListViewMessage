@@ -35,7 +35,7 @@ public class MsgAdapter extends ArrayAdapter<Msg>
 		else
 		{
 			v=convertView;
-			vh=(MsgAdapter.ViewHolder) v.getTag();
+			vh=(ViewHolder) v.getTag();
 		}
 		//如果是收到的消息，显示左边，隐藏右边
 		if(msg.getType()==Msg.TYPE_RECEIVED)
@@ -51,8 +51,8 @@ public class MsgAdapter extends ArrayAdapter<Msg>
 			vh.leftlayout.setVisibility(View.GONE);
 			vh.rightmsg.setText(msg.getContent());
 		}
-		
-		return super.getView(position, convertView, parent);
+		//这个必须返回view
+		return v;
 	}
 	//内部类
 	class ViewHolder

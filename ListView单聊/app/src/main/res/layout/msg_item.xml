@@ -3,14 +3,16 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
-	android:orientation="vertical">
+	android:orientation="vertical"
+	android:padding="10dp">
 
 	<LinearLayout
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
 		android:orientation="vertical"
 		android:layout_gravity="left"
-		android:id="@+id/left_layout">
+		android:id="@+id/left_layout"
+		android:background="#888483">
 
 		<TextView
 			android:layout_height="wrap_content"
@@ -19,7 +21,7 @@
 			android:layout_gravity="center"
 			android:layout_margin="10dp"
 			android:id="@+id/left_msg"
-			android:textColor="#FF0F00"/>
+			android:textColor="#000000"/>
 
 	</LinearLayout>
 
@@ -28,7 +30,8 @@
 		android:layout_width="wrap_content"
 		android:orientation="vertical"
 		android:layout_gravity="right"
-		android:id="@+id/right_layout">
+		android:id="@+id/right_layout"
+		android:background="#3F699C">
 
 		<TextView
 			android:layout_height="wrap_content"

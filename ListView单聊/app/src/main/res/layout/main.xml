@@ -8,9 +8,10 @@
 	<ListView
 		android:text="@string/hello_world"
 		android:layout_width="match_parent"
-		android:layout_height="0dp"
-		android:divider="#000000"
-		android:id="@+id/mainListView1"/>
+		android:layout_height="wrap_content"
+		android:id="@+id/mainListView1"
+		android:layout_weight="1"
+		android:divider="#000000"/>
 
 	<LinearLayout
 		android:layout_height="wrap_content"
@@ -21,13 +22,15 @@
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:ems="10"
-			android:id="@+id/mainEditText1"/>
+			android:id="@+id/mainEditText1"
+			android:layout_weight="5"/>
 
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:text="Button"
-			android:id="@+id/mainButtonsend"/>
+			android:id="@+id/mainButtonsend"
+			android:layout_weight="1"/>
 
 	</LinearLayout>
 
